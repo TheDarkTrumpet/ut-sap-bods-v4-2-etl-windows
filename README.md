@@ -4,7 +4,7 @@
 This Universal Task allows to execute an SAP Data Services “ETL” Job using the “AL_RWJobLauncher.exe” utility which comes with the SAP
 Data Services installation
 
-# 1.	Disclaimer
+# 1	Disclaimer
 
 No support and no warranty are provided by Stonebranch GmbH for this document and the related Universal Task. The use of this document and
 the related Universal Task is on your own risk.
@@ -13,7 +13,7 @@ Before using this task in a production system, please perform extensive testing.
 
 Stonebranch GmbH assumes no liability for damage caused by the performance of the Universal Tasks
 
-# 2.	Introduction
+# 2	Introduction
 
 The here described Universal Task allows to execute an SAP Data Services “ETL” Job using the “AL_RWJobLauncher.exe” utility which comes
 with the SAP Data Services installation. 
