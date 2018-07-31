@@ -1,19 +1,18 @@
-# ut-sap-bods-v4-2-etl-win
+# ut-sap-bods-v4-2-etl-windows
 # Abstract: 
 
 This Universal Task allows to execute an SAP Data Services “ETL” Job using the “AL_RWJobLauncher.exe” utility which comes with the SAP
 Data Services installation
 
-# 1.	Disclaimer
+# Disclaimer
 
-No support and no warranty are provided by Stonebranch GmbH for this document and the related Universal Task. The use of this document and
-the related Universal Task is on your own risk.
+No support and no warranty are provided by Stonebranch GmbH for this document and the related Universal Task. The use of this document and the related Universal Task is on your own risk.
 
 Before using this task in a production system, please perform extensive testing.
 
 Stonebranch GmbH assumes no liability for damage caused by the performance of the Universal Tasks
 
-# 2.	Introduction
+# 2	Introduction
 
 The here described Universal Task allows to execute an SAP Data Services “ETL” Job using the “AL_RWJobLauncher.exe” utility which comes
 with the SAP Data Services installation. 
@@ -21,10 +20,10 @@ with the SAP Data Services installation.
 The tool is explained in the attached document [1] from page 45 onwards.
 
 Some details about the universal task for SAP Data Services:
--	It is based on the “AL_RWJobLauncher.exe” which is part of the Data Services Install
--	The Data Services Windows Server needs to have Python 3.6.3 installed
--	The Data Service Windows Server needs to have a Universal Agent installed
-- For Data Services on Linux Server a separate Universal Task can be provided. 
+- It is based on the “AL_RWJobLauncher.exe” which is part of the Data Services Install
+- The Data Services Windows Server needs to have Python 3.6.3 installed
+- The Data Service Windows Server needs to have a Universal Agent installed
+- For Data Services on Windows Server a separate Universal Task is available in the Marketplace 
 - The Universal Task will provide the same error and trace information as the SAP Data Services Management Console.
 - You can select different log-levels e.g. Info and debug
 - You can configure all connection Parameters via the Universal Task
@@ -176,3 +175,4 @@ This document references the following documents:
 Image 14
 
 ![](images/image14.png)
+
