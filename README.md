@@ -1,4 +1,4 @@
-# ut-sap-bods-v4-2-etl-win
+# ut-sap-bods-v4-2-etl-windows
 # Abstract: 
 
 This Universal Task allows to execute an SAP Data Services “ETL” Job using the “AL_RWJobLauncher.exe” utility which comes with the SAP
@@ -20,10 +20,10 @@ with the SAP Data Services installation.
 The tool is explained in the attached document [1] from page 45 onwards.
 
 Some details about the universal task for SAP Data Services:
--	It is based on the “AL_RWJobLauncher.exe” which is part of the Data Services Install
--	The Data Services Windows Server needs to have Python 3.6.3 installed
--	The Data Service Windows Server needs to have a Universal Agent installed
-- For Data Services on Linux Server a separate Universal Task can be provided. 
+- It is based on the “AL_RWJobLauncher.exe” which is part of the Data Services Install
+- The Data Services Windows Server needs to have Python 3.6.3 installed
+- The Data Service Windows Server needs to have a Universal Agent installed
+- For Data Services on Windows Server a separate Universal Task is available in the Marketplace 
 - The Universal Task will provide the same error and trace information as the SAP Data Services Management Console.
 - You can select different log-levels e.g. Info and debug
 - You can configure all connection Parameters via the Universal Task
